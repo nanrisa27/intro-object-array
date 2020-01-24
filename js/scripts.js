@@ -9,3 +9,37 @@ window.dataLayer.forEach(function(event) {
 
   document.getElementById("event-list").appendChild(newEvent);
 });
+
+var helsinkiAirportDepature=[
+    {
+    airline: 'finair',
+    departure: '14:00',
+    destination: 'spain'
+
+
+
+    }, 
+    
+    {
+        
+
+    }, 
+    
+    {
+
+
+    }
+
+    helsinkiAirportDepature.forEach(function(flight){
+        var newFlight=document.createElement('li');
+    })
+
+
+
+
+
+
+
+
+
+]
